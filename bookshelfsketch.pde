@@ -55,7 +55,7 @@ var drawBook = function(x, y, bookIndex){
     text(book.author, x+45, y+35, 70, 100);
     if (book.rec === true){
         image(getImage("creatures/Winston"), x+67, y+65, 20,20);
-    }
+    } else {}
     for (var s = 0; s < book.stars; s++) {
         image(getImage("cute/Star"), 35+x + s * 16, y + 75, 20, 30);
     }
